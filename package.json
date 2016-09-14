@@ -1,0 +1,19 @@
+{
+  "name": "node-red-modbustcp",
+  "version": "0.1.1",
+  "description": "Node-RED nodes for communicating with a MODBUS TCP Server via web service",
+  "main": "modbustcp.js",
+
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taka-wang/node-red-contrib-rest-mbtcp.git"
+  },
+  "node-red": {
+    "nodes": {
+      "modbus tcp": "modbustcp.js"
+    }
+  },
+  "author": "Taka Wang",
+  "license": "MIT"
+}
